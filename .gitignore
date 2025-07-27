@@ -1,0 +1,20 @@
+# Ignore virtual environments
+corrosion-env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large libraries
+*.dll
+*.lib
+*.pyd
+
+# Others (optional)
+*.log
+*.DS_Store
+*.env
