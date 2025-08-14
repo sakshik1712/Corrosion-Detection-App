@@ -21,18 +21,18 @@ Installation & Usage :
 
 Install dependencies :
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 
 Run the Streamlit app :
 
-streamlit run app.py
+'streamlit run app.py'
 
 
 Training a new model (optional) :
 
-python train_model.py
-python save_model.py
+'python train_model.py'
+'python save_model.py'
 
 
 Use the app interface
