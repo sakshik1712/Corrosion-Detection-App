@@ -13,3 +13,27 @@ A **Streamlit-based and CNN-powered corrosion detection** application that ident
 - 🧠 **Custom CNN Model** – Built in `model.py`, trained via `train_model.py`, and saved/loaded using `save_model.py`.
 
   Demo : http://localhost:8501
+
+  
+---
+
+##  Installation & Usage
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sakshik1712/Corrosion-Detection-App.git
+   cd Corrosion-Detection-App
+   pip install -r requirements.txt
+   streamlit run app.py
+## Training a new model (optional)
+    python train_model.py
+    python save_model.py
+    Use the app interface
+Choose between uploading an image or activating your webcam to detect corrosion in real time.
+
+Future Enhancements
+- Batch Image Processing – Enable processing of multiple images in one go.
+- Localization – Highlight and outline corroded regions rather than just classifying them.
+- Model Expansion – Train on more corrosion types, surfaces, and lighting conditions.
+- Cross-Platform Deployment – Deploy as a web service (Flask/Django) or desktop app (Electron/PyInstaller).
+- User Feedback Loop – Logging incorrect predictions for continual training improvements.
