@@ -18,19 +18,22 @@ Installation & Usage :
 **Clone the repository**
    git clone https://github.com/sakshik1712/Corrosion-Detection-App.git
    cd Corrosion-Detection-App
-   
+
 Install dependencies
 
 pip install -r requirements.txt
+
 
 Run the Streamlit app
 
 streamlit run app.py
 
+
 Training a new model (optional)
 
 python train_model.py
 python save_model.py
+
 
 Use the app interface
 Choose between uploading an image or activating your webcam to detect corrosion in real time.
