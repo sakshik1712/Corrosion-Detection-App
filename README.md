@@ -19,17 +19,17 @@ Installation & Usage :
    git clone https://github.com/sakshik1712/Corrosion-Detection-App.git
    cd Corrosion-Detection-App
 
-Install dependencies
+Install dependencies :
 
 pip install -r requirements.txt
 
 
-Run the Streamlit app
+Run the Streamlit app :
 
 streamlit run app.py
 
 
-Training a new model (optional)
+Training a new model (optional) :
 
 python train_model.py
 python save_model.py
