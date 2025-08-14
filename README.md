@@ -28,7 +28,7 @@ A **Streamlit-based and CNN-powered corrosion detection** application that ident
 ## Training a new model (optional)
     python train_model.py
     python save_model.py
-    Use the app interface
+Use the app interface : 
 Choose between uploading an image or activating your webcam to detect corrosion in real time.
 
 Future Enhancements
