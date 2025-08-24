@@ -11,10 +11,7 @@ A **Streamlit-based and CNN-powered corrosion detection** application that ident
 - ⏱ **Real-Time Predictions** – Immediate results through a sleek UI.  
 - 🖥️ **Built with Streamlit** – Highly interactive and user-friendly frontend.  
 - 🧠 **Custom CNN Model** – Built in `model.py`, trained via `train_model.py`, and saved/loaded using `save_model.py`.
-
-  Demo : http://localhost:8501
-
-  
+ 
 ---
 
 ##  Installation & Usage
